@@ -9,7 +9,7 @@ bread_quantity = 0
 apple_quantity = 0
 banana_quantity = 0
 
-print "\n Please enter all the items purchased separated by a comma: \n\n"
+print "\nPlease enter all the items purchased separated by a comma: \n\n"
 STDOUT.flush
 list_of_items = STDIN.gets.chomp.split(/,/).map(&:to_s)
 
